@@ -152,7 +152,6 @@
         horizontalAlignItems: "center",
         padding: 8,
         spacing: 6,
-        stroke: "#000",
         verticalAlignItems: "center"
       },
       /* @__PURE__ */ figma.widget.h(

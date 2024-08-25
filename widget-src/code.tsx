@@ -12,6 +12,7 @@ const pastelColors = [
   '#d7e3fc',
 ];
 
+
 function shuffleArray(array: string[]): string[] {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -143,7 +144,6 @@ function Carousel() {
       horizontalAlignItems="center"
       padding={8}
       spacing={6}
-      stroke="#000"
       verticalAlignItems="center"
     >
       <AutoLayout
